@@ -104,7 +104,7 @@ const neoSchema = new Neo4jGraphQL({
   driver,
   plugins: {
     auth: new Neo4jGraphQLAuthJWKSPlugin({
-      jwksEndpoint: "https://grandstack.auth0.com/.well-known/jwks.json",
+      jwksEndpoint: "https://dev--jyttum9.us.auth0.com/.well-known/jwks.json",
     }),
   },
 });
